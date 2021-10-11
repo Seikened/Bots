@@ -3,18 +3,11 @@ import os
 
 bot = telebot.TeleBot("2001341521:AAF9OlA1_ZykxIR_JgX__T6zy2G18CieFj8")
 
-#-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-#-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-
-
-
-
-@bot.message_handler(commands=['lista'])
+@bot.message_handler(commands=['Saludame'])
 
 def cualquiercosa(message):
-	bot.send_message(message.chat.id, "Creando lista de comras...")
+	bot.send_message(message.chat.id, "Hola como estas")
 
 
 
