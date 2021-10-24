@@ -1,4 +1,5 @@
 
+
 def lista():
 
 	SALIDA = "Q"
@@ -66,8 +67,9 @@ def lista():
 
 
 	if __name__ == "__main__":
-		main()
+		main())
 
+        
 
 
 import telebot
